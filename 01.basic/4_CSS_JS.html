@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS JavaScript</title>
-    <link rel="stylesheet" href="css/my_style.css">
+    <link rel="stylesheet" href="css/4_CSS_JS.css">
     <style>
         body{ 
             color:aliceblue; 
@@ -29,8 +29,10 @@
     </style>
 
     <script>
-        
-
+        document.getElementById("load1").innerHTML = "change1";        
+        function updateDemo1(){
+            document.getElementById("demo1").innerHTML = "내용변경 완료";
+        }
     </script>
 </head>
 <body>
@@ -52,6 +54,45 @@
     
     <!-- 외부 스타일 적용 -->
     <p id = "external"> 외부 스타일 적용 </p>
+
+
+    <!-- 자손 선택자 -->
+    <div class="jason">
+        <h2>자손 선택자 예시</h2>
+        <p>첫번째 단락</p>
+        <section>
+            <p>두번째 단락</p>
+        </section>
+
+    </div>
+
+    <!-- 자식선택자 예시 -->
+    <div class="jasic">
+        <h2>자식 선택자 예시</h2>
+        <p>첫번째 단락</p>
+        <section>
+            <p>두번째 단락</p>
+        </section>
+    </div>
+
+
+
+    <!-- 자바스크립트 예시 -->
+    <h2>javaSrcipt 예시</h2>
+    <p id ="load1">체인지전</p>
+    <p id ="load2">체인지전</p>
+
+
+
+    <p>변경될 p태그 내용</p>
+
+    <p id ="demo1">변경되기전</p>
+    <button onclick="updateDemo1()">내용변경</button>
+
+    <p id ="demo2">변경되기전2</p>
+    <button onclick="updateDemo2()">내용변경 완료</button>
+
+    <script src="script/my_js.js"></script>
 
 
 </body>

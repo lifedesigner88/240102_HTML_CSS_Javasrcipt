@@ -1,0 +1,15 @@
+#external{
+    color:hotpink;
+}
+
+
+/* 자손선택자 */
+.jason p{
+    color:blue;
+}
+
+
+/* 자식선택자 */
+.jasic > p{
+    color: green;
+}
