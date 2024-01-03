@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS JavaScript</title>
+    <link rel="stylesheet" href="css/my_style.css">
+    <style>
+        body{ 
+            color:aliceblue; 
+            background-color:#1f2428; 
+        }
+        /* 태그선택 */
+        p{
+            color:gray;
+            text-align: right;
+            text-decoration:overline;
+        }
+        /* 클래스 선택 */
+        .paras {
+            color:rgb(105, 138, 221);
+            text-align: left;
+            text-decoration: underline;
+        }
+        /* id 선택 */
+        #para {
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        
+
+    </script>
+</head>
+<body>
+    <h2>html, css, js 통합 기본</h2>
+    <!-- 인라인 스타일 적용 -->
+    <p style="
+        color:aqua; 
+        text-decoration: 
+        underline; 
+        text-align:center">인라인스타일 적용</p>
+    <!-- 내부 스타일 적용 -->
+        <!-- 태그 선택자 -->
+        <p> 태그 선택자 적용 </p>
+        <!-- 클래스 선택자 -->
+        <p class="paras">클래스 선택자 1</p>    
+        <p class="paras">클래스 선택자 2</p>    
+        <!-- 아이디 선택자 -->
+        <p class="paras" id="para"> 아이디 선택자</p>  
+    
+    <!-- 외부 스타일 적용 -->
+    <p id = "external"> 외부 스타일 적용 </p>
+
+
+</body>
+</html>
+
