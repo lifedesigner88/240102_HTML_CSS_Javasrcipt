@@ -23,6 +23,11 @@ async function callBackImp() {
     }
 }
 
+// response1.data.array.forEach(element => {
+//     myTarget.innerHTML += `<tr><td>${element.id}</td><td>${element.title}</td><td>${element.userId}</td></tr>`
+// });
+
+
 callBackImp();
 
 

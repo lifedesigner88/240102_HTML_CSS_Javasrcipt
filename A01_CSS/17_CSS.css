@@ -1,0 +1,13 @@
+.title {
+    font-weight: bold;
+    padding: 10px;
+}
+
+table{
+    margin-top: 10px;
+}
+
+tr,td{
+    border: 1px solid tomato;
+    padding: 5px;
+}
