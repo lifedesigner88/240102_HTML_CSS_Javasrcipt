@@ -16,7 +16,6 @@ function callBackExample3(){
 function processUserInput(callback){
     let name = prompt("이름을 입력해주세요");
     callback(name)
-    
 }
 
 function callBackExample4(){
@@ -41,3 +40,12 @@ function callBackExample5(){
 
     
 }
+
+
+
+
+
+
+
+
+
