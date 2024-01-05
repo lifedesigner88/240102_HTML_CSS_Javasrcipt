@@ -1,4 +1,3 @@
-
 body{
     color:rgb(238, 248, 255);
     display:flex;
@@ -25,4 +24,16 @@ button{
 p{
     text-align:center;
     color:rgb(255, 182, 156);
+}
+
+.inputs{
+    margin: 5px;
+}
+.cal_btn {
+    margin: 5px;
+    padding: 6px;
+}
+
+h2{
+    margin-top: 50px;
 }

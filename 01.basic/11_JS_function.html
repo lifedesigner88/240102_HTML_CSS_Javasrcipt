@@ -8,15 +8,52 @@
 </head>
 <body>
     <section>
-        <h2> 함수 관련 내용 </h2>
-        <button onClick="basicFunction()"> 함수 호츨 </button>
+
+        <h2> 03. 항목추가 시스템  </h2>
+
+
+        <label for="content-1"> 항목 1
+            <input type="text" id="content-1">
+            <button onClick="addContent()"> 항목추가</button>
+        </label>
+        <div id="addContent"></div>
+
+
+
+
+        <h2> 02. 계산기  </h2>
+
+        <input class="inputs" type="text" value="3">
+        <select id="oper">
+            <option value="+">덧셈</option>
+            <option value="-">뺄셈</option>
+            <option value="*">곱셈</option>
+            <option value="/">나눗셈</option>
+        </select>
+        <input class="inputs" type="text" value="4">
+        <button class="cal_btn" onClick="calculate()">+</button>
+        <p id="result6"></p>
+
+
+        <h2> 01. 함수 관련 내용 </h2>
+        <button onClick="basicFunction1()"> 함수 호츨1 </button>
             <p id="result1"></p>
 
-        <button onClick="showComparismString()"> 문자비교 연산자 </button>
+        <button onClick="basicFunction2()"> 함수 호출2 </button>
             <p id="result2"></p>
 
-        <button onClick="showOperatorResult(3,4)"> 삼항연산자 비교 </button>
+        <button onClick="basicFunction3('name')"> 문자 매개변수 </button>
             <p id="result3"></p>
+
+        <button onClick="basicFunction4(10,14)"> 매개변수 계산 </button>
+            <p id="result4"></p>
+
+        <button onClick="basicFunction5(10,14,15,16)"> 누적합 </button>
+            <p id="result5"></p>
+
+
+
+
 
     </section>
     <script src="JS/11_JS.js"></script>
