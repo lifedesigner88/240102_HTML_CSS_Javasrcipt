@@ -17,12 +17,10 @@ function addTableData(data) {
             <td class="title">authorId</td>
             <td>${data.userId}</td>
         </tr>
-
-
 `;
 }
 
-function insertTable(respons, i) {        // <tbody id="Data">
+function insertTable(respons, i) {        // <table id="detailInfo">
     document.getElementById("detailInfo")
         .innerHTML += addTableData(respons.data[i]);
 }

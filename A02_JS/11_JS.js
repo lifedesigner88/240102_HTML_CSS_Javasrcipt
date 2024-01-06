@@ -1,5 +1,4 @@
 // 03. 항목 추가 제거 시스템
-
 let itemCount = 2;
 function createItem() {
     const htmlContent = `
