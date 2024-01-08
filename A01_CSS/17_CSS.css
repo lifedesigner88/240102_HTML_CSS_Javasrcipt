@@ -11,3 +11,7 @@ tr,td{
     border: 1px solid tomato;
     padding: 5px;
 }
+
+object {
+    width:100vw;
+}

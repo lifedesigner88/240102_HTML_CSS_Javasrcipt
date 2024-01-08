@@ -2,8 +2,8 @@
 body{
     color:rgb(238, 248, 255);
     display:flex;
+    flex-direction: column;
     height: 500px;
-    background-color: #24292e;
     justify-content: center;
     align-items: center;
 

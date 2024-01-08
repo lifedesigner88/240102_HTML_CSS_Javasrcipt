@@ -1,7 +1,11 @@
+const URL = 'https://jsonplaceholder.typicode.com/posts/';
+// const URL = 'http://localhost:8080/csr/json/';
+
 function createRow(data) {
     return `<tr>
                 <td>${data.id}</td>
                 <td>${data.title}</td>
+                <td>${data.body}</td>
                 <td>${data.userId}</td>
             </tr>`;
 }
@@ -13,7 +17,7 @@ function addRow(respons, i) {        // <tbody id="Data">
 
 async function callBackImp() {
     try {
-        const reponse = await axios.get('https://jsonplaceholder.typicode.com/posts/')
+        const reponse = await axios.get(URL)
         for (let i = 0; i < reponse.data.length; i++)
             addRow(reponse, i);
         console.log("axios");
