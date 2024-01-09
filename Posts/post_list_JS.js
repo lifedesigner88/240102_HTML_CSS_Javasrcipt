@@ -1,4 +1,3 @@
-// const URL = 'https://jsonplaceholder.typicode.com/posts/';
 const URL = 'http://localhost:8080/csr/json/';
 
 function createRow(data) {
@@ -6,7 +5,7 @@ function createRow(data) {
                 <td>${data.id}</td>
                 <td>${data.title}</td>
                 <td>${data.body}</td>
-                <td>${data.userId}</td>
+                <td>${data.authorName}</td>
             </tr>`;
 }
 
@@ -26,10 +25,6 @@ async function callBackImp() {
         console.log(a);
     }
 }
-
-// response1.data.array.forEach(element => {
-//     myTarget.innerHTML += `<tr><td>${element.id}</td><td>${element.title}</td><td>${element.userId}</td></tr>`
-// });
 
 
 callBackImp();
