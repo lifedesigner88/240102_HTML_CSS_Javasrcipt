@@ -1,0 +1,36 @@
+.profile {
+    width:100px;
+    display: block;
+    margin: auto
+}
+
+.name {
+    font-family: '한컴 말랑말랑 Regular Mono', serif;
+    color : rgba(187,24,187,0.44);
+    letter-spacing: 6px;
+    text-align: center
+}
+
+strong {
+    color:red;
+}
+
+#bg {
+    background-color: #f2f2f2;
+}
+
+p, h1 {text-align: center}
+/* 인라인 > 아이디 > 클래스 > 태크*/
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+    margin:auto;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 10px;
+    color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
